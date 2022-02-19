@@ -112,8 +112,9 @@ header .desktopNav li:hover {
 }
 
 .mobileNavContainer {
-  margin-top: 30px;
-  margin-left: 40px;
+  top: 5em;
+  left: 50%;
+  margin-left: -150px;
   background: white;
   text-align: center;
   position: absolute;
@@ -335,7 +336,7 @@ header .desktopNav li:hover {
   border-radius: 5px 5px 0 0;
 }
 .article .articleItem img {
-  width: 325px;
+  width: 100%;
   border-radius: 5px 5px 0 0;
 }
 @media screen and (min-width: 1200px) {
@@ -424,6 +425,7 @@ footer ul {
 }
 footer ul li {
   margin-bottom: 10px;
+  cursor: pointer;
 }
 footer ul li:hover {
   color: #9698a6;
